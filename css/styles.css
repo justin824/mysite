@@ -2,12 +2,13 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: #e3fdfd
 }
 
 h1 {
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
+    font-size: min(20vw, 5.625rem);
     color: #66BFBF;
 }
 
@@ -16,11 +17,6 @@ h2 {
     color: #66BFBF;
     font-weight: bold;
     font-size: 2rem;
-}
-
-.h2-top {
-    font-weight: normal;
-    font-size: 1.5rem;
 }
 
 h3 {
@@ -33,30 +29,63 @@ hr {
     border-top-style: dotted;
     border-color: lightgray;
     border-width: 5px;
-    width: 2.5%;
+    width: 48px;
 }
+
+
 
 .top-container {
     position: relative;
-    padding-top: 100px;
-    background-color: #b5e4e9;
-    height: 608px;
+    padding-top: 150px;
+    background-color: #cbf1f5;
+    height: 550px;
 }
 
 .top-cloud {
     position: absolute;
-    top: 50px;
-    right: 30%;
+    top: 100px;
+    left: 65%;
+    width: 150px;
+    max-width: 30%;
+}
+
+.h2-top {
+    font-weight: normal;
+    font-size: min(10vw, 1.5rem);
 }
 
 .bottom-cloud {
     position: absolute;
-    bottom: 15250px0px;
-    left: 30%
+    top: 450px;
+    right: 65%;
+    width: 150px;
+    max-width: 30%;
+}
+
+.mountain {
+    max-width: 80%;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: max(-262px, -40%);
+    bottom: 0;
+}
+
+
+
+.middle-container {
+    
 }
 
 .profile {
     margin: 100px auto;
+}
+
+.bunny-img {
+    background-color: #a6e3e9;
+    padding: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 96px;
 }
 
 .skills {
@@ -85,24 +114,14 @@ hr {
 margin-top: 100px;
 }
 
-.bottom-container {
-    margin-top: 100px;
-    padding: 50px 0;
-    background-color: #71c9ce;
-    color: white;
-}
-
 .contact-descr {
     margin-top: 30px;
 }
 
-a {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
 .btn {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     background-color: #71c9ce;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
     background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
@@ -123,12 +142,29 @@ a {
     background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
 }
 
+
+
+.bottom-container {
+    margin-top: 100px;
+    padding: 50px 0;
+    background-color: #71c9ce;
+    color: white;
+}
+
 .footer-link {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     color: #11999E;
     margin: 0 25px;
 }
 
 .copyright {
+    color: white;
     font-size: 0.75rem;
     margin-top: 50px;
+}
+
+.flaticon {
+    color: white;
+
 }
