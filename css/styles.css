@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #e3fdfd
+    background-color: #ffffff
 }
 
 h1 {
@@ -29,7 +29,7 @@ hr {
     border-top-style: dotted;
     border-color: lightgray;
     border-width: 5px;
-    width: 48px;
+    width: 45px;
 }
 
 
@@ -38,7 +38,7 @@ hr {
     position: relative;
     padding-top: 150px;
     background-color: #cbf1f5;
-    height: 550px;
+    height: 650px;
 }
 
 .top-cloud {
@@ -56,7 +56,7 @@ hr {
 
 .bottom-cloud {
     position: absolute;
-    top: 450px;
+    bottom: min(35%, 300px);
     right: 65%;
     width: 150px;
     max-width: 30%;
@@ -73,11 +73,11 @@ hr {
 
 
 .middle-container {
-    
+    margin: 100px auto;
 }
 
 .profile {
-    margin: 100px auto;
+    margin-bottom: 100px;
 }
 
 .bunny-img {
@@ -89,25 +89,25 @@ hr {
 }
 
 .skills {
-    margin-top: 100px;
+    margin: 100px auto;
 }
 
 .skill-row {
-    width: 50%;
+    width: max(250px, 50%);
     margin: 100px auto;
     text-align: left;
     line-height: 2;
 }
 
 .thai-img {
-    width: 20%;
+    width: max(150px, 20%);
     float: left;
-    margin-right: 30px;
+    margin: 0 40px 15px 40px;
 }
 .travel-img {
-    width: 20%;
+    width: max(150px, 20%);
     float: right;
-    margin-left: 30px;
+    margin: 0 40px 15px 40px;
 }
 
 .contact-me {
@@ -155,7 +155,7 @@ margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #11999E;
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 .copyright {
@@ -166,5 +166,4 @@ margin-top: 100px;
 
 .flaticon {
     color: white;
-
 }
